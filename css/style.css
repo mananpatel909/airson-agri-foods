@@ -887,3 +887,15 @@ a {
     font-size: 65px;
   }
 }
+/* Fix AirSon logo sizing */
+.site-header .brand-logo {
+  display: block;
+  width: 95px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.hero-logo,
+.hero-logo-wrap {
+  display: none !important;
+}
