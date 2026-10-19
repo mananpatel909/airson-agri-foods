@@ -909,3 +909,18 @@ a {
     height: 60px;
   }
 }
+
+/* Final header logo size override */
+.site-header .brand-logo {
+  width: 120px !important;
+  height: 68px !important;
+  max-width: none;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .site-header .brand-logo {
+    width: 105px !important;
+    height: 60px !important;
+  }
+}
