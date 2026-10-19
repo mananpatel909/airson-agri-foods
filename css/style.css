@@ -84,8 +84,8 @@ a {
 }
 
 .brand-logo {
-  width: 150px;
-  height: 70px;
+  width: 95px;
+  height: 58px;
   object-fit: contain;
   object-position: left center;
 }
@@ -837,5 +837,53 @@ a {
 
   .contact-band {
     padding: 55px 6%;
+  }
+}
+.hero-art {
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-decoration {
+  text-align: center;
+  color: var(--green);
+}
+
+.decoration-leaf {
+  display: block;
+  color: #bd8b31;
+  font-size: 100px;
+  line-height: 1.1;
+}
+
+.hero-decoration p {
+  margin: 8px 0;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(22px, 3vw, 34px);
+}
+
+.decoration-line {
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 14px auto;
+  background: var(--gold);
+}
+
+.hero-decoration .decoration-subtitle {
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 850px) {
+  .hero-art {
+    min-height: 170px;
+  }
+
+  .decoration-leaf {
+    font-size: 65px;
   }
 }
