@@ -911,16 +911,20 @@ a {
 }
 
 /* Final header logo size override */
+
 .site-header .brand-logo {
-  width: 120px !important;
-  height: 68px !important;
+  display: block;
+  width: 140px !important;
+  height: 76px !important;
   max-width: none;
   object-fit: contain;
+  object-position: left center;
 }
 
 @media (max-width: 600px) {
   .site-header .brand-logo {
-    width: 105px !important;
-    height: 60px !important;
+    width: 120px !important;
+    height: 64px !important;
   }
 }
+
