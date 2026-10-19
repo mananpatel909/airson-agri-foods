@@ -888,14 +888,24 @@ a {
   }
 }
 /* Fix AirSon logo sizing */
+
 .site-header .brand-logo {
   display: block;
-  width: 95px;
-  height: 58px;
+  width: 120px;
+  height: 68px;
   object-fit: contain;
+  object-position: left center;
 }
+
 
 .hero-logo,
 .hero-logo-wrap {
   display: none !important;
+}
+
+@media (max-width: 600px) {
+  .site-header .brand-logo {
+    width: 105px;
+    height: 60px;
+  }
 }
